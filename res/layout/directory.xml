@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+   >
+
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+     <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1" >
+        
+        
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-30dp"
+        
+        android:src="@drawable/direc" />
+
+          <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Emergency Hotline Numbers"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+          
+           <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+    
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="UP Diliman Police" 
+         android:textAppearance="?android:attr/textAppearanceMedium"/>
+        
+    
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9283615
+9818500	loc 4008 (Radio Room)
+113 (Helpdesk)"/>
+      
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+      
+       <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="University Health Service"
+           android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    
+
+    
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9818500 loc 111" />
+        
+        
+         <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+         
+         
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Campus Maintenance Office
+Quick Response Team c/o 
+Mr. Alfredo Olorvida" 
+android:textAppearance="?android:attr/textAppearanceMedium"/>
+        
+        
+         <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0949-7336916"/>
+    
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+     
+    <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bomb Squad" 
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="436-0948
+924-3101"/>
+      
+       <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" 
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+       <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLDT" 
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="173
+171"/>
+      
+       <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bomb Squad" 
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="436-0948
+924-3101"/>
+     
+
+         <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" 
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+         
+          <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLDT" 
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    
+
+        
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="173
+171"/>
+      
+       <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" 
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+         
+          <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meralco" 
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    
+
+        
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="631-1111
+162-11"/>
+      
+      
+       <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" 
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+         
+          <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Philippine National Red Cross
+Quezon City Chapter" 
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    
+
+        
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="920-3672
+433-6568 (Blood Bank)
+433-2151 to 52
+434-3751"/>
+     
+       <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" 
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+         
+          <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bureau of Fire Protection" 
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    
+
+        
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="928-8363 (Quezon City Hall)
+924-1922
+441-8279 (Libis)
+492-7576 (Loyola Heights)
+931-9894 (New Era)"/>
+     
+     
+     
+
+        
+        
+  
+
+            </TableLayout>
+</ScrollView>
+        
+                </LinearLayout>
+                </ScrollView>

@@ -1,0 +1,474 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/profile" >
+    
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+          android:duplicateParentState="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+      android:background="@drawable/x1"
+        android:fadingEdge="horizontal"
+        android:onClick="selfDestruct" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+          android:duplicateParentState="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button3"
+          android:background="@drawable/x2"
+           android:onClick="selfDestruct"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/tabhost"
+        android:layout_toLeftOf="@+id/button2"
+        android:background="@drawable/d"
+        android:clickable="false"
+        android:duplicateParentState="false"
+        android:onClick="selfDestruct" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+          android:duplicateParentState="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/button1"
+        android:layout_toRightOf="@+id/button1"
+        android:background="@drawable/x3"
+         android:onClick="selfDestruct" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="80dp"
+        android:layout_height="83dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/button3"
+        android:background="@drawable/x6"
+        android:clickable="false"
+        android:duplicateParentState="false"
+        android:onClick="selfDestruct" />
+    
+
+    
+
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1"
+        >
+         <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="University of the Philippines (UP)"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+         <ImageView
+             android:id="@+id/imageView2"
+             android:layout_width="wrap_content"
+             android:layout_height="166dp"
+             android:src="@drawable/upd" />
+
+         <TableRow
+             android:id="@+id/tableRow1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" >
+         </TableRow>
+        
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="On February 12, 1949, a motorcade made its way from Padre Faura all the way to a cogon-strewn expanse in Quezon City. At its head, borne on an open vehicle, was the Oblation, bronzed symbol of the University of the Philippines, on its way to its future home. This ceremony marked the university's transfer from its original site in Manila to its 493-hectare campus Diliman, which would have more room for the University's expansion as it fulfilled its role as educator to the nation.
+
+UP Diliman is the flagship university of the UP System. It is the administrative seat of the system as well as an autonomous university in its own right. UP Diliman is not only the home of diverse colleges, offering 94 graduate and undergraduate courses, it also runs several centers of research, many of which have been declared by the Commission on Higher Education as National Centers of Excellence.
+
+The University of the Philippines was established in 1908 with three initial colleges, the College of Fine Arts, the College of Liberal Arts and the College of Medicine and Surgery occupying buildings distributed along Padre Faura and R. Hidalgo in Manila as well as a School of Agriculture in Los Banos, Laguna. The succeeding years saw the establishment of additional colleges: the College of Law and the College of Engineering in Manila, as well as units in Los Baños for the College of Agriculture and Forestry.
+
+The student population had shot up from the original 67 to 7849 in 1928, and continued to rise in the succeeding years. It was soon necessary for UP to make room for new colleges and create more academic programs. By 1939 the Board of Regents decided that it was time to look for a larger site, and sought funding to acquire a 493-hectare lot in Diliman. Construction began on that same year. However, with the outbreak of World War II and the invasion of Japanese troops in 1942, the university had to close some of its colleges while maintaining only some units such as the Colleges of Medicine, Engineering and Pharmacy operational. At the same time, two buildings-which were intended for the College of Liberal Arts and the Colleges of Law and Business Administration--and had already been built in Diliman, were occupied by Japanese forces."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+
+       <ImageView
+             android:id="@+id/imageView2"
+             android:layout_width="wrap_content"
+             android:layout_height="166dp"
+             android:src="@drawable/as" />
+        
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="When the war ended in 1946, the College of Law and College of Liberal Arts buildings were left with extensive damages. UP President Bienvenido Gonzales immediately endeavoured to restore the university to normal operations. He sought a grant of P13 million from the US-Philippines War Damage Commission, and this amount was used for an intensive rehabilitation and construction effort during the post war years. A map of Diliman campus made in 1949 shows the areas designated for future construction: the map records the optimism with which UP embarked upon its expansion projects; soon after the Diliman landscape was dotted with new buildings: the Library, the College of Engineering, the Women's Residence (what is now Kamia Residence Hall, the Conservatory of Music, the Administration Building and the President's Residence. Meanwhile, the rest of the colleges and administrative offices had to make do with temporary shelters, quonset huts made of sawali and galvanized iron.
+
+It was amidst these bucolic surroundings that UP's 40th anniversary celebration was held in February 1949, highlighted by the transfer of the Oblation. By then, administrative functions of the whole university were already relocated to the new campus, and the governance of UP's regional units in Manila, Los Baños, Baguio, and Cebu were also located in Diliman. It was also in 1949 that general commencement exercises were first held at the new campus.
+
+The following decade saw the establishment of new institutes at Diliman, UP's response to the demand for more specialized fields of study at the same time that it was reformulating its approaches to tertiary education. One reform introduced into the university in 1959 was the General Education Program, a series of core courses prescribed for all students at the undergraduate level. Most of these courses were being taught at the then College of Liberal Arts, and UP President Vicente Sinco saw fit to reorganize the college. He created the University College, which would offer the core subjects to be taken in the first two years of the undergraduate course, and the College of Arts and Sciences and Graduate School of Arts and Sciences, which would offer major courses in the humanities, natural sciences and social sciences."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+           <ImageView
+               android:id="@+id/imageView2"
+               android:layout_width="wrap_content"
+               android:layout_height="222dp"
+               android:src="@drawable/ad" />
+        
+            <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="At the same time UP also set up additional training centers for spawning the nation's bureaucrats and technocrats and some of these institutes were subsequently elevated into colleges. Thus, during President Sinco's term these institutes and colleges were already in place: the Institute of Public Administration (1952), the Statistical Center (1953), the Labor Education Center, which would become the School of Labor and Industrial Relations (1954), the Asian Studies Institute (1955), the College of Home Economics(1961), and the Institute of Library Science (1961)."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="227dp"
+                    android:src="@drawable/af" />
+              
+                <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="By the end of Carlos P. Romulo's term as UP President in 1968, UP had also become not only an institution of education, but also a center of research, a veritable think tank, while many of its faculty served as advisers and consultants in the national government. Romulo's administration was marked by the establishment of the Population Institute, the Law Center and the Applied Geodesy and Photogrammetry Training Center in 1964, the Institute of Mass Communications, the College of Business Administration, and the Institute of Planning in 1965, the Computer Center, the Institute for Small-Scale Industries in 1966, the Institute of Social Work and Community Development in 1967 and the Asian Center in 1968.
+
+Despite the period of unrest that followed under the yoke of Martial Law, UP's administrators tried to sustain the university's educational priorities and institutional autonomy. At the height of activism in the university, President SP Lopez began the system of democratic consultation in which decisions such as promotions and appointments were made through greater participation with faculty and administrative personnel. Lopez also initiated the reorganization of UP into the UP System to decentralize governance. The Los Baños campus was the first to be declared an autonomous unit under a chancellor in November 1972. Giving a boost to UP's growth was the P150 million grant from the national budget for UP's Infrastructure Development Program, which was distributed throughout the System. In Diliman, it funded the construction buildings for the College of Business Administration, Zoology, the Institute of Small-Scale Industries, the Transport Training Center and the Coral Laboratory of the Marine Sciences Institute. Kalayaan Residence Hall and housing for lwo-income employees were also built around this time."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+                  <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="227dp"
+                    android:src="@drawable/ag" />
+                
+                    <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Onofre D. Corpuz continued the reorganization initiative by declaring UP Manila, then known as the Health Sciences Center, and UP Visayas as autonomous units. At the same time, the prioritization of tourism as a national industry also led to the establishment of the Asian Institute of Tourism. New centers for research and degree granting units such as the Third World Studies Center (1977), Creative Writing Center, National Engineering Center (1978), UP Extension Program in San Fernando (1979), Institute of Islamic Studies (1973), UP Film Center, National Center for Transportation Studies (1976) were also established. UP celebrated its 75th year 1983.
+
+President Edgardo Angara's Diamond Jubilee project rallied the alumni all over the country and abroad in a fund-raising blitz which eventually raised P80 million. This money was earmarked for the creation of new professorial chairs and faculty grants. Angara also organized two committees, the Management Review Committee (MRC) and the Committee to Review Academic Programs (CRAP) to evaluate and recommend measures for improving UP's operations. The MRC report led to the wide-ranging reorganization of the UP system, most importantly, the further decentralization of UP administration and the declaration of UP Diliman as an autonomous unit in March 23, 1983. UP College Baguio was then placed under the supervision of UP Diliman. Meanwhile, the College of Arts and Sciences also underwent a reorganization to become three separate colleges, the College of Science, the College of Arts and Letters and the College of Social Sciences and Philosophy. As the flagship university, UP Diliman leads the rest of the units in sheer size.
+
+By 1997, UP Diliman had 18,935 students distributed among 12 pre-baccalaureate, 74 baccalaureate and 8 post-baccalaureate programs, which in turn are handled by 2,441 faculty members. Students enjoy the low board and lodging rates at 10 residence halls and the extensive collection of publications, including those in multimedia format, in its libraries. Ensuring that all the administrative and academic functions of the university is a job that falls on the shoulders of its chancellors. UP Diliman has also kept up with the information-driven culture all over the globe. Installation of a fiber-optic network linking the various colleges in the campus, or DilNet, which in turn serves as UP's gateway to the global network of the Internet, was begun in the term of Roger Posadas as Chancellor, and continues apace under Chancellor Claro T.Llaguno. The campus has also welcomed fledgling technology companies in its technology park.
+
+Throughout its history, UP has had to cope with cost-cutting measures dictated by the national government. The Commonwealth Property Development Project was conceptualized as latest solution to the problem of funding the UP System's continuing expansion. It proposes the development of a 98.5-hectare lot on the northwestern side of the UP Diliman property into a commercial zone through a joint venture partnership with a private developer. The project went through several rounds of consultations in 1997 with constituents from the entire UP System, and revisions to the original terms were incorporated into the proposal that has been submitted to Malacañang. Many faculty members, students and alumni from UP Diliman have also gained national recognition for their contributions and achievements in the fields of science and technology, arts and culture and sports."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+              
+                 <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="227dp"
+                    android:src="@drawable/ah" />
+                                                     <TextView
+                                                                                      android:id="@+id/textView3"
+                                                                                      android:layout_width="wrap_content"
+                                                                                      android:layout_height="wrap_content"
+                                                                                      android:text="" />
+                                                                                <TextView
+                                                                                      android:id="@+id/textView3"
+                                                                                      android:layout_width="wrap_content"
+                                                                                      android:layout_height="wrap_content"
+                                                                                      android:text="http://upd.edu.ph/hist.htm" />
+       
+            </TableLayout>
+</ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    
+                    <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="University Calendar for Academic Year 2012-2013"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+           <ImageView
+             android:id="@+id/imageView2"
+             android:layout_width="wrap_content"
+             android:layout_height="166dp"
+             android:src="@drawable/upd" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:gravity="center_vertical"
+            android:text="First Semester 2012"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+
+
+
+        
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:gravity="center_vertical"
+            android:text="April
+16-May 8 \n	First Year Registration \n  \n
+June	  \n \n 1-2	Second Year Registration \n
+3-4	Third Year Registration \n
+5-6	Fourth Year Registration \n
+7-8	Fifth Year Registration\n
+15	College Faculty Meeting\n
+18	First Semester Classes Start\n
+19-30	 Adjustment Period\n
+30	 Last day of payment of tuition and fees without fine\n 
+Deadline for submission of adjustment form/s or application for change of enrollment (ACE) forms to OUR \n  \n
+July  \n \n 2-27	 Issuance of application for graduation, Mid-year 2012-2013 \n
+27 	 Deadline for submission of application for Mid-year graduation 2012-2013 \n  \n
+August	  \n\n 13-18	Mid-term Examinations \n
+19	 Mid-term Departmental Examinations \n
+25	 Encoding of Mid-term grades 
+
+Deadline of Completion of Incomplete Marks, First Semester 2011-2012
+27	National Heroes Day \n
+31	Last day for graduating students to clear their deficiencies \n  \n
+September   \n\n	3	 PUPCET 2013 application starts \n  \n
+October	  \n\n 1 and 2	PUP 108th Foundation Anniversary \n
+11-17	Final Examinations, Graduating and Non-Graduating Students \n
+14	 Final Departmental Examinations \n 
+19	 Integration Period/Round-up activities \n
+
+Submission of pink card grades from Dean's Office to OUR
+
+Submission of First Semester 2012-2013 gradesheets to the Dean
+
+Distribution of classcards
+
+Submission of subject offerings for Second Semester, 2012-2013 \n
+20	First Semester Ends
+
+Encoding of Final Grades \n
+27	 Submission of First Semester 2012-2013 gradesheets to OUR   \n  \n
+November  \n  \n
+November	9	 University Academic Council Meeting  \n
+December	7	Mid-Year Commencement Exercises  \n  \n
+Second Semester 2012  \n  \n
+October  \n 22-23	First Year Registration  \n
+24-25	Second Year Registration  \n
+26-27	Third Year Registration  \n
+29-30	Fourth Year Registration  \n
+31	Fifth Year Registration 
+
+College Faculty Meeting  \n  \n
+November \n  \n 1	All Saints' Day \n
+5	Second Semester Classes Start  \n
+5	 Resumption of PUPCET 2013 Applications  \n
+6-19	 Adjustment Period  \n
+9	 University Academic Council Meeting  \n
+19	 Last day of payment of tuition and fees without fine 
+
+Deadline for submission of adjustment form/s or application for change of enrollment (ACE) forms to OUR
+19-Dec 7	 Issuance of application for Year-End Graduation, 2012-2013  \n
+30	 Bonifacio Day  \n \n
+December	 \n  \n 3	 LAST DAY OF PAYMENT WITH FINE
+
+SIS CLOSED FOR REGISTRATION  \n
+7	Mid-Year Commencement Exercises 
+
+Deadline for submission of application for Year-End Graduation \n  \n 2012-2013   \n  \n
+17-Jan 2	Christmas Vacation  \n
+30	Rizal Day  \n  \n
+2nd Semester 2013  \n 
+January  \n  \n	1	New Year's Day  \n
+3	Classes Resume  \n 
+20	 Mid-term Departmental Examinations \n
+21-26	Mid-term Examinations  \n
+27	 PUPCET 2013 First Batch  \n  \n
+February  \n  \n	1	 Last day for graduating students to clear their deficiencies  \n
+2	 Encoding of Mid-term grades
+
+Deadline of Completion of Incomplete Marks Second Semester 2010-2011 \n
+10	PUPLHS 2013 Entrance Exam  \n
+17	PUPCET 2013 Second Batch  \n  \n
+March	 \n  \n 18-23	Final Examinations - Graduating and Non-Graduating Students  \n
+26-27	 Integration Period/Round-up activities
+
+Submission of pink card grades from the Deans to OUR
+
+Submission of Summer 2013 subject offerings to OUR
+
+Distribution of classcards  \n
+27	Second Semester Ends 
+
+Encoding of Final Grades  \n
+28	Long Vacation begins  \n  \n
+April  \n  \n	2	 Submission of Second Semester 2012-2013 gradesheets to the Dean  \n
+6	 Submission of Second Semester 2012-2013 gradesheets to OUR  \n
+12	 University Academic Council Meeting  \n
+May	10	Year-End Commencement Exercises 2012-2013 
+Summer 2013  \n  \n
+April	 \n  \n1-5	 Registration Period  \n
+2	 Submission of subject offerings, First Semester 2013-2014 to OUR  \n
+9	 Araw ng Kagitingan  \n
+10	Summer Classes Start  \n
+26-27	Mid-term Examinations 
+
+Encoding of Mid-term grades
+
+DEADLINE OF COMPLETION OF INCOMPLETE MARKS SUMMER 2010-2011  \n  \n
+May \n  \n	1	Labor day  \n
+17-18	Final Examinations 
+
+Encoding of Final Grades  \n
+18	Round-up of activities 
+
+End of Summer Term  \n  \n
+June	 \n 6	 Long Vacation Ends"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="http://www.pup.edu.ph/Profile/Calendar.aspx" />
+        
+            </TableLayout>
+</ScrollView>
+        
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent" >
+                    <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1"
+        >
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/qq" />
+        
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ww" />
+        
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ee" />
+        
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rr" />
+        
+
+       
+          
+        
+
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/zzz" />
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/xxx" />
+        
+
+   </TableLayout>
+</ScrollView>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</RelativeLayout>
